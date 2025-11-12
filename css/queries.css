@@ -1,0 +1,617 @@
+/* 1600px and below */
+@media (max-width: 100em) {
+  .left-align {
+    padding-left: 10%;
+  }
+
+  .hero-content {
+    padding-left: 10%;
+  }
+
+  .how-to-help-grid {
+    padding: 0 5%;
+  }
+
+  .testimonial-img {
+    width: 60rem;
+  }
+
+  .testimonial-card {
+    max-width: 90%;
+  }
+
+  .testimonial-text {
+    top: 4rem;
+    height: 20%;
+  }
+
+  .about-hero-section h1 {
+    display: block;
+    padding: 5%;
+  }
+
+  .meet-the-team {
+    max-width: 90%;
+  }
+
+  .mission-grid {
+    max-width: 80%;
+    padding: 0;
+    grid-template-columns: 1fr;
+    gap: 5rem;
+  }
+
+  .contact-grid {
+    max-width: 80%;
+  }
+
+  .visit-maps {
+    max-height: 50rem;
+  }
+
+  .visit-section {
+    min-height: 100rem;
+  }
+
+  .footer {
+    padding: 5rem 5% 3rem;
+  }
+
+  .footer-nav {
+    grid-template-columns: 1fr 1fr;
+    justify-items: start;
+    gap: 5rem;
+    margin-top: 10rem;
+    width: 70%;
+  }
+
+  .footer-nav > :nth-child(4) {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+  .volunteer-content {
+    max-width: 75%;
+  }
+
+  .header-sub-text {
+    width: 90%;
+  }
+
+  .volunteer-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .wave-secondary {
+    top: -20%;
+  }
+}
+
+/* 1360px and below */
+
+@media (max-width: 85em) {
+  h1 {
+    font-size: 3.5rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+  h4 {
+    font-size: 2rem;
+  }
+
+  .nav-links {
+    gap: 4rem;
+  }
+
+  .how-to-help-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .how-to-help-grid {
+    grid-template-columns: 1fr;
+    max-width: 80%;
+    align-self: center;
+  }
+
+  .guest-img {
+    max-width: 35rem;
+  }
+
+  .guest-grid {
+    gap: 6rem;
+  }
+
+  .testimonial-section {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-card {
+    max-width: 80%;
+    align-self: center;
+  }
+
+  .testimonials {
+    padding-left: 0;
+    /* align-items: center; */
+  }
+
+  .right-align {
+    margin-left: 0;
+  }
+
+  .quote-icon {
+    height: 3rem;
+    top: -1rem;
+    left: -1rem;
+  }
+
+  .quote-icon-bottom-right {
+    height: 3rem;
+    bottom: -1rem;
+    right: -1rem;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 10rem;
+    padding-top: 5rem;
+  }
+
+  .contact-roles {
+    grid-row: 2 / 3;
+  }
+
+  .person-name {
+    font-size: 2.25rem;
+  }
+
+  .footer-nav {
+    width: 80%;
+  }
+
+  .form-field {
+    width: 60rem;
+  }
+
+  .about-hero-section {
+    grid-template-columns: 0.5fr 1fr;
+  }
+
+  .hero-section {
+    grid-template-columns: 1fr;
+    padding-right: 10%;
+    background-position: center;
+  }
+
+  .hero-image {
+    width: 60%;
+  }
+
+  .hero-content {
+    width: 70%;
+  }
+}
+
+/* 1200px and below */
+
+@media (max-width: 75em) {
+  .hero-content {
+    width: 80%;
+  }
+
+  .guest-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .guest-grid > .guest-img-wrapper:nth-child(2) {
+    grid-row: 1 / 2;
+  }
+
+  .guest-grid > .guest-img-wrapper:nth-child(6) {
+    grid-row: 5 / 6;
+  }
+
+  .guest-text {
+    margin-bottom: 8rem;
+    max-width: 80%;
+  }
+
+  .guest-text .sub-heading {
+    margin-bottom: -3rem;
+  }
+
+  .guest-grid > :nth-child(5) {
+    margin-bottom: 0;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .contact-grid {
+    max-width: 90%;
+  }
+
+  .visit-section {
+    padding: 5rem 5% 15rem;
+  }
+
+  .visit-maps {
+    flex-direction: column;
+    align-items: center;
+    max-height: fit-content;
+  }
+
+  .visit-maps img {
+    width: 70%;
+  }
+
+  .footer-nav {
+    width: 90%;
+  }
+
+  .about-hero-section {
+    grid-template-columns: 1fr;
+    position: relative;
+    height: 100%;
+  }
+
+  .about-hero-section h1 {
+    position: absolute;
+    top: 17rem;
+    left: 0;
+    z-index: 998;
+  }
+
+  .about-cta {
+    max-width: 80%;
+  }
+
+  .nav-links {
+    border-radius: 0;
+    background: linear-gradient(rgba(228, 243, 251, 0.95));
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease-in;
+    font-size: 2.5rem;
+    font-weight: 700;
+
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .nav-open .nav-links {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="open"] {
+    display: none;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+    z-index: 1000;
+  }
+}
+
+/* 992px and below */
+
+@media (max-width: 62em) {
+  .hero-content {
+    width: 100%;
+  }
+
+  .testimonial-img {
+    width: 50rem;
+  }
+
+  .testimonial-text {
+    top: 4rem;
+    height: 30%;
+    font-size: 2rem;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .wave-secondary {
+    top: -10%;
+  }
+
+  .form-field {
+    width: 45rem;
+  }
+
+  .visit-maps img {
+    width: 90%;
+  }
+
+  .meet-the-team {
+    gap: 3rem;
+    padding: 3rem;
+  }
+  .wave {
+    bottom: -2%;
+  }
+
+  .hero-image {
+    width: 65%;
+  }
+}
+
+/* 672px and below */
+
+@media (max-width: 42em) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 2.25rem;
+  }
+  h4 {
+    font-size: 2rem;
+  }
+
+  .hero-image {
+    width: 80%;
+  }
+
+  .hero-section {
+    align-items: start;
+    padding-top: 20rem;
+    height: 115vh;
+  }
+
+  .hero-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .btn:link,
+  .btn:visited {
+    padding: 2rem 3rem;
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn-alt:link,
+  .btn-alt:visited {
+    padding: 2rem 3rem;
+    margin-left: 0;
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .how-to-help-grid {
+    max-width: 90%;
+  }
+
+  .testimonial-card {
+    max-width: 90%;
+  }
+
+  .guest-text {
+    max-width: 90%;
+  }
+
+  .footer-nav {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .footer-nav > :nth-child(4) {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+
+  .wave-secondary {
+    top: -5%;
+  }
+
+  .footer {
+    padding: 5rem 5% 3rem;
+  }
+
+  .footer-cell {
+    width: 25rem;
+  }
+
+  .equal-text {
+    font-size: 1.25rem;
+  }
+
+  .logo {
+    max-width: 25rem;
+    justify-self: center;
+  }
+
+  .about-number {
+    font-size: 5rem;
+    position: absolute;
+    height: max-content;
+    background: none;
+    top: 1rem;
+    left: 3rem;
+    padding: 0;
+  }
+
+  .about-accordion {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .about-hero-section h1 {
+    position: static;
+    margin-top: 25rem;
+    margin-bottom: 3rem;
+  }
+
+  .about-accordion-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 3rem;
+    opacity: 1;
+    transition: none;
+    position: static;
+    transform: none;
+    border-radius: 0;
+    width: 100%;
+  }
+
+  .about-accordion-slide {
+    display: flex;
+    flex-direction: column;
+    font-size: 100%;
+    position: relative;
+    transition: none;
+    overflow: hidden;
+    cursor: auto;
+    padding-bottom: 2rem;
+  }
+
+  .about-accordion-slide:hover {
+    flex-grow: none;
+    font-size: inherit;
+  }
+
+  .about-accordion-slide:hover .accordion-text {
+    opacity: 1;
+    pointer-events: none;
+  }
+
+  .about-accordion-slide:hover .about-sunburst {
+    opacity: 1;
+    pointer-events: none;
+  }
+
+  .about-verse {
+    font-family: "Charm", sans-serif;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .about-sunburst {
+    position: static;
+    transform: none;
+    width: 6rem;
+    height: 6rem;
+    opacity: 1;
+    pointer-events: none;
+    transition: none;
+  }
+
+  .about-accordion-slide:nth-child(1) {
+    background-color: #e4f3fb;
+  }
+  .about-accordion-slide:nth-child(2) {
+    background-color: #cddbe2;
+  }
+  .about-accordion-slide:nth-child(3) {
+    background-color: #b6c2c9;
+    padding-bottom: 7rem;
+  }
+
+  .meet-the-team-section {
+    padding: 10rem 0 10rem;
+  }
+
+  .faq-flex {
+    padding: 0;
+  }
+
+  .volunteer-content {
+    max-width: 90%;
+  }
+
+  .volunteer-cards {
+    padding: 0;
+  }
+
+  .btn-card:link,
+  .btn-card:visited {
+    font-size: 2rem;
+  }
+}
+
+/* 528px and below */
+
+@media (max-width: 33em) {
+  html {
+    font-size: 48%;
+  }
+
+  .btn-alt:link,
+  .btn-alt:visited {
+    padding: 3rem 2rem;
+    width: 30rem;
+  }
+
+  .btn:link,
+  .btn:visited {
+    padding: 3rem 2rem;
+    width: 30rem;
+  }
+
+  .hero-image {
+    width: 90%;
+  }
+
+  .hero-section {
+    height: 110vh;
+  }
+
+  .person-name {
+    font-size: 1.75rem;
+  }
+
+  .form-field {
+    width: 30rem;
+  }
+  .testimonial-img {
+    width: 40rem;
+  }
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .visit-maps img {
+    width: 100%;
+  }
+  .copyright-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
