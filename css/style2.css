@@ -264,6 +264,11 @@ h4 {
   transition: all 0.5s;
 }
 
+.sunburst-small {
+  width: 2rem;
+  height: 2rem;
+}
+
 .sunburst:hover {
   transform: scale(1.15);
 }
@@ -817,7 +822,35 @@ address {
 
 .volunteer-roles-section {
   padding: 10rem 0 10rem;
-  height: 1000px;
+}
+
+.volunteer-roles {
+  margin-top: 5rem;
+  list-style: none;
+  width: 100%;
+}
+
+.role-box {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 1rem;
+  transition: all 0.3s;
+  max-width: 95%;
+}
+
+.role {
+  padding-top: 3rem;
+  width: 100%;
+}
+
+.role-box:hover {
+  background-color: #e4f3fb;
+  transform: scale(1.01);
+}
+
+.role:last-child {
+  padding-bottom: 3rem;
 }
 
 .volunteer-reasons-section {
