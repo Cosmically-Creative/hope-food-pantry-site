@@ -220,8 +220,8 @@ h4 {
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(228, 243, 251, 0.65)),
-    url(/img/drone-image.png);
+  background-image: linear-gradient(rgba(228, 243, 251, 0.75)),
+    url(/img/drone-img.jpeg);
   background-size: cover;
 }
 
