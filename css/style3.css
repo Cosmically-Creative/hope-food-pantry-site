@@ -45,6 +45,10 @@ h4 {
   line-height: 1.2;
 }
 
+cite {
+  font-style: normal;
+}
+
 .header {
   position: relative;
 }
@@ -220,7 +224,7 @@ h4 {
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(228, 243, 251, 0.75)),
+  background-image: linear-gradient(rgba(228, 243, 251, 0.8)),
     url(/img/drone-img.jpeg);
   background-size: cover;
 }
@@ -461,7 +465,7 @@ h4 {
 
 .testimonial-section {
   display: grid;
-  padding: 0 0 20rem;
+  padding: 0 0 25rem;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
@@ -710,6 +714,7 @@ h4 {
 
 .visit-maps img {
   border-radius: 3rem;
+  box-shadow: 0px 4px 4px 0px #22222240;
 }
 
 /* Footer */
@@ -848,6 +853,7 @@ address {
 .role-box:hover {
   background-color: #e4f3fb;
   transform: scale(1.01);
+  font-weight: 600;
 }
 
 .role:last-child {
@@ -883,6 +889,7 @@ address {
   border-radius: 3rem;
   padding: 4rem;
   position: relative;
+  box-shadow: 0px 4px 4px 0px #22222240;
 }
 
 /* ABOUT PAGE */

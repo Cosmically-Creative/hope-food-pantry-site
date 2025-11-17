@@ -382,12 +382,6 @@
     width: 80%;
   }
 
-  .hero-section {
-    align-items: start;
-    padding-top: 20rem;
-    height: 115vh;
-  }
-
   .hero-btns {
     display: flex;
     flex-direction: column;
@@ -587,10 +581,6 @@
 
   .hero-image {
     width: 90%;
-  }
-
-  .hero-section {
-    height: 105vh;
   }
 
   .person-name {
