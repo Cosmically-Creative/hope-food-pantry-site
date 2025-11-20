@@ -1112,3 +1112,33 @@ address {
   padding: 5rem;
   width: 80%;
 }
+
+/* Animations */
+
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(3rem);
+  transition-property: opacity, transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+.animate-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.animate-on-scroll-delay {
+  opacity: 0;
+  transform: translateY(3rem);
+  transition-property: opacity, transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0.2s;
+}
+
+.animate-on-scroll-delay.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
