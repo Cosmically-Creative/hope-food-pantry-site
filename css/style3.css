@@ -104,7 +104,7 @@ cite {
   display: flex;
   gap: 5rem;
   background-color: #e4f3fb;
-  padding: 2rem 4rem;
+  padding: 1.5rem 3rem;
   border-radius: 5rem;
   box-shadow: 0px 4px 4px 0px #22222240;
   justify-content: center;
@@ -112,7 +112,7 @@ cite {
 }
 
 .logo {
-  max-width: 30rem;
+  max-width: 25rem;
   transition: all 0.5s;
 }
 
@@ -232,8 +232,12 @@ cite {
 .hero-content {
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  gap: 3rem;
   padding-left: 20%;
+}
+
+.hero-content p {
+  margin-bottom: 2rem;
 }
 
 .hero-image {

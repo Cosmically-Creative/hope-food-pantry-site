@@ -44,7 +44,7 @@ navLinks.forEach((link) => {
 
 // Scroll Animations
 document.addEventListener("DOMContentLoaded", () => {
-  const observerOptions = { root: null, rootMargin: "0px", threshold: 0.75 };
+  const observerOptions = { root: null, rootMargin: "0px", threshold: 0.4 };
   const onIntersection = (entries, observer) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
