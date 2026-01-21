@@ -45,12 +45,12 @@
     max-width: 80%;
   }
 
-  .visit-maps {
+  .visit-maps img {
     max-height: 50rem;
   }
 
   .visit-section {
-    min-height: 100rem;
+    min-height: 170rem;
   }
 
   .footer {
@@ -245,11 +245,10 @@
   .visit-maps {
     flex-direction: column;
     align-items: center;
-    max-height: fit-content;
   }
 
   .visit-maps img {
-    width: 70%;
+    width: 75%;
   }
 
   .footer-nav {
@@ -345,10 +344,6 @@
     width: 45rem;
   }
 
-  .visit-maps img {
-    width: 90%;
-  }
-
   .meet-the-team {
     gap: 3rem;
     padding: 3rem;
@@ -359,6 +354,10 @@
 
   .hero-image {
     width: 65%;
+  }
+
+  .visit-section {
+    min-height: 120rem;
   }
 }
 
@@ -557,6 +556,10 @@
   .btn-card:visited {
     font-size: 2rem;
   }
+
+  .visit-maps img {
+    width: 90%;
+  }
 }
 
 /* 528px and below */
@@ -589,15 +592,15 @@
   .form-field {
     width: 30rem;
   }
+
   .testimonial-img {
     width: 40rem;
   }
+
   .gallery-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  .visit-maps img {
-    width: 100%;
-  }
+
   .copyright-text {
     display: flex;
     flex-direction: column;
