@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
   };
   const observer = new IntersectionObserver(onIntersection, observerOptions);
   const elementsToAnimate = document.querySelectorAll(
-    ".animate-on-scroll, .animate-on-scroll-delay"
+    ".animate-on-scroll, .animate-on-scroll-delay",
   );
   elementsToAnimate.forEach((el) => observer.observe(el));
 });
